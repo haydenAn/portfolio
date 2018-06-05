@@ -1,0 +1,16 @@
+.Explore {
+  color: white;
+  width: 100vw;
+  height: auto;
+}
+.Explore {
+  animation: fadein 2s;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

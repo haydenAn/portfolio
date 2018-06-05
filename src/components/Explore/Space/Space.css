@@ -1,0 +1,89 @@
+.Space {
+  position: absolute;
+  left: 100vh;
+  height: auto;
+  width: auto;
+  padding-top: 70px;
+  font-size: 13px;
+  font-family: "Raleway", sans-serif;
+  text-align: left;
+}
+.Space {
+  animation: fadeindown 2s;
+}
+@keyframes fadeindown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -20%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+.link {
+  text-decoration: none;
+  color: #2e86ab;
+  font-size: 16px;
+}
+.Space_main-h1 {
+  color: #95190c;
+  font-size: 40px;
+}
+.Space_main-h3 {
+  color: #95190c;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+}
+.Space_1-skils {
+  display: flex;
+  flex-direction: row;
+}
+.Space_1-listLeft {
+  margin-right: 50px;
+}
+
+.Space_1-h1 {
+  color: #95190c;
+  font-size: 40px;
+}
+.Space_1-h3 {
+  color: #95190c;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+}
+
+.mycon {
+  font-size: 50px;
+}
+.Space_1-h4 {
+  color: #eca72c;
+  font-size: 18px;
+}
+
+.Space_2-h1 {
+  color: #95190c;
+  font-size: 40px;
+}
+.Space_2-h3 {
+  color: #eca72c;
+  font-size: 25px;
+  font-family: "Raleway", sans-serif;
+}
+.ilgi-left {
+  display: inline;
+}
+.ilgi-right {
+  display: inline;
+}
+.ilgi {
+  margin-right: 50px;
+  animation: fadeindown 1s;
+}
+.Nito {
+  animation: fadeindown 1.5s;
+}
+.projects {
+  display: flex;
+  flex-direction: row;
+}
